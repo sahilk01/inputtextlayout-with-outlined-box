@@ -18,7 +18,9 @@ STEPS:
 
 3. add design library in Gradle: implementation 'com.android.support:design:28.0.0'
 
+
 4. use <android.support.design.widget.TextInputEditText> layout under <android.support.design.widget.TextInputLayout> in Activity xml.
+
 
 5. add: style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox" in TextInputLayout.
 
@@ -26,13 +28,16 @@ THAT'S IT!
 
  CHANGING COLORS:
  
+
 1. change the hover color by changing color accent.
  
+
 2. change the default (unhovered) hint color by Adding: 
  
  android:textColorHint="YOUR COLOUR"
  
  in TextInputLayout
+ 
  
  3. change the default (unhovered) outline box color by "ctrl+left click" on MateialComponents theme, find and change "default box stroke color".
  
